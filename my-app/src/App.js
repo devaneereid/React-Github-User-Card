@@ -13,14 +13,6 @@ const ImgStyles = styled.img`
   border-radius: 50%;
   border: 3px solid #C6E2FF;
   margin: 20px;
-  transition: all 1s ease;
-
- 
-  img:hover & {
-    width: 300px;
-    height: 300px;
-
-  } 
 `;
 const TextStylesH1 = styled.h1`
   color: #C6E2FF;
