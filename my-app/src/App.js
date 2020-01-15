@@ -73,7 +73,7 @@ class App extends Component {
                     alt='user-avatar'></ImgStyles>
               <TextStylesH3>Name: {this.state.users.name}</TextStylesH3>
               <TextStylesH3>GitHub Handle: {this.state.users.login}</TextStylesH3>
-              <TextStylesH3>URL: {this.state.users.html_url}</TextStylesH3>
+              <TextStylesH3>Location: {this.state.users.location}</TextStylesH3>
             </div>
             <DivStyles className='followers'>
               {this.state.userText.map(follower => (
